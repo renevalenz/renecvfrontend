@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+
+.index {
+
+    font-family: 'Montserrat';
+    margin: 0px;
+    text-align: center;
+
+}
+
+h1,
+h2 {
+    color: #038191;
+    font-weight: bold;
+
+}
+
+/* header */
+header {
+    height: 700px;
+    background-image: url(/img/fondocv.png);
+    background-size:contain;
+    background-color: #01232b;
+    background-attachment: fixed;
+
+}
+
+
+
+.mi-foto {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 10%;
+    
+
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 0px;
+    display: flex;
+    font-size: 58px;
+    color: white;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+
+}
+
+.intro {
+    color:gray;
+    font-weight: bold;
+    margin: 30px;;
+    
+}
+
+.btn {
+    margin-top: 50px;
+    background: #038191;
+    border-radius: 20px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    box-shadow: 1px 5px 5px rgb(1, 22, 24);
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #01232b;
+}
+
+.spacer {
+    height: 100px;
+}
+
+/* main */
+
+h2 {
+    letter-spacing: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    display: grid;
+
+
+}
+
+
+span,
+dt {
+    color: #014757;
+    font-weight: bold;
+    
+}
+
+
+
+ul {
+   color: gray;   
+    text-align: center;
+    list-style-position: inside;
+    padding: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+   
+}
+
+.container-list {
+    display: inline-block;
+    text-align: left;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+dl {
+    width: 25%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+
+}
+
+dt {
+    float: left;
+    width: 40%;
+
+    padding: 0;
+    margin: 0;
+}
+
+dd {
+    color: gray; 
+    text-align: left;
+    float: left;
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
+    font-weight: 500;
+    
+}
+
+/* footer */
+.index-footer {
+    background-color: #01232b;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+    justify-content: center;
+    height: 100px;
+    margin-top: 50px;
+    padding: 50px 0 20px;
+}
+
+.copyright {
+    font-weight: normal;
+    color: white;
+    font-size: 12px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-link {
+    color: #038191;
+    text-decoration: none;
+    margin: 20px;
+}
+
+
+
+.footer-link:hover {
+    color: #ffffff;
+}
+
+
+/* /////////////// about ///////////// */
+
+.about {
+    font-family: 'Montserrat';
+    margin: 0px;
+    
+    }
+    
+.nombre {
+    margin: 40px;
+}
+    
+
+h2 {
+    
+    text-align: center;
+}
+
+
+.about-list {
+    line-height: 2;
+    color: white;
+    
+    
+}
+
+.back-btn {
+position:sticky;
+    text-decoration: none;
+   font-weight: 700;
+    color: white;
+    top: 30px;
+    margin-left: 40px;
+    
+}
+
+.back-btn:hover {
+    color: #038191;
+    
+}
+
+.contact-me {
+    text-align: center;
+    margin: 80px;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.about-footer {
+   
+    
+    background-color: #01232b;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+    justify-content: center;
+    height: 100px;
+    margin-top: 0px;
+    padding: 50px 0 20px;
+   
+}
+
