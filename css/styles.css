@@ -18,7 +18,7 @@ h2 {
 /* header */
 header {
     height: 700px;
-    background-image: url(../img/fondocv.png);
+    background-image: url(..//img/fondocv.png);
     background-size:contain;
     background-color: #01232b;
     background-attachment: fixed;
