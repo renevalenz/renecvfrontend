@@ -12,6 +12,7 @@ h1,
 h2 {
     color: #038191;
     font-weight: bold;
+    
 
 }
 
@@ -19,7 +20,7 @@ h2 {
 header {
     height: 700px;
     background-image: url(../img/fondocv.png);
-    background-size:contain;
+    background-size: contain;
     background-color: #01232b;
     background-attachment: fixed;
 
@@ -31,7 +32,7 @@ header {
     margin-top: 50px;
     margin-bottom: 30px;
     width: 10%;
-    
+
 
 }
 
@@ -44,15 +45,16 @@ h1 {
     height: 60px;
     align-items: center;
     justify-content: center;
-    margin:0;
+    margin: 0;
 
 }
 
 .intro {
-    color:gray;
+    color: gray;
     font-weight: bold;
-    margin: 30px;;
-    
+    margin: 30px;
+    ;
+
 }
 
 .btn {
@@ -73,17 +75,15 @@ h1 {
 }
 
 .spacer {
-    height: 100px;
+    height: 80px;
 }
 
 /* main */
 
 h2 {
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     font-size: 20px;
     margin-left: 20px;
-    display: grid;
-
 
 }
 
@@ -92,19 +92,21 @@ span,
 dt {
     color: #014757;
     font-weight: bold;
-    
+
 }
 
-
+li {
+    padding-bottom: 5px;
+}
 
 ul {
-   color: gray;   
+    color: gray;
     text-align: center;
     list-style-position: inside;
     padding: 20px;
     line-height: 1.5;
     font-weight: 500;
-   
+
 }
 
 .container-list {
@@ -116,6 +118,19 @@ ul {
 .container {
     display: flex;
     justify-content: center;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tools-logos {
+    fill: rgb(255, 0, 230);
+    width: 50px;
+    margin: 20px;
 }
 
 dl {
@@ -135,7 +150,7 @@ dt {
 }
 
 dd {
-    color: gray; 
+    color: gray;
     text-align: left;
     float: left;
     width: 60%;
@@ -143,7 +158,7 @@ dd {
     margin: 0;
     margin-bottom: 1em;
     font-weight: 500;
-    
+
 }
 
 /* footer */
@@ -169,7 +184,6 @@ dd {
 
 .footer-link {
     color: #038191;
-    text-decoration: none;
     margin: 20px;
 }
 
@@ -185,40 +199,43 @@ dd {
 .about {
     font-family: 'Montserrat';
     margin: 0px;
-    
-    }
-    
+
+}
+
 .nombre {
     margin: 40px;
 }
-    
 
-h2 {
-    
+
+.titulo2 {
+
     text-align: center;
 }
 
 
 .about-list {
-    line-height: 2;
+    line-height: 1.5;
     color: white;
-    
-    
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+
+
 }
 
 .back-btn {
-position:sticky;
+    position: sticky;
     text-decoration: none;
-   font-weight: 700;
+    font-weight: 700;
     color: white;
     top: 30px;
     margin-left: 40px;
-    
+
 }
 
 .back-btn:hover {
     color: #038191;
-    
+
 }
 
 .contact-me {
@@ -227,13 +244,13 @@ position:sticky;
 }
 
 .contact-message {
-    width: 40%;
+    width: 50%;
     margin: 40px auto 60px;
 }
 
 .about-footer {
-   
-    
+
+
     background-color: #01232b;
     display: flex;
     align-items: center;
@@ -243,6 +260,70 @@ position:sticky;
     height: 100px;
     margin-top: 0px;
     padding: 50px 0 20px;
-   
+
 }
 
+/* media queries necesitas estar hasta abajo de los elementos a cambiar */
+@media (max-width: 900px) {
+    h1 {
+
+        font-size: 40px;
+        height: 0px;
+        margin-bottom: 40px;
+    }
+
+    .mi-foto {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        width: 15%;
+    }
+
+
+    .btn {
+        margin-top: 0;
+    }
+
+    header {
+        height: 350px;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size:auto 350px;
+        background-position: center;
+
+        
+    }
+
+    dl {
+        width: 80%;
+    }
+
+    dt {
+
+        width: 40%;
+    }
+
+    dd {
+
+        width: 60%;
+    }
+
+    .about-header {
+        height: 400px;
+        background-image: none;
+    }
+
+    .back-btn {
+
+        top: 20px;
+        margin-left: 10px;
+    }
+    .about-list {
+        font-size: smaller;
+        width: 80%;
+    }
+    
+
+    .titulo2 {
+        margin:0;
+    }
+}
